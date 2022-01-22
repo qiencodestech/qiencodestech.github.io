@@ -1,0 +1,63 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, h1{
+    margin: 0;
+}
+
+
+#header{
+    background: #d44870;
+    color: #d2d2d2;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#headline{
+    padding: 10px 0 18px 0;
+}
+
+#form{
+    padding: 0 0 10px 0;
+}
+
+#headline, #form{
+    text-align: center;
+}
+
+#form input, #form button{
+    padding: 7px;
+    border-radius: 7px;;
+}
+
+#form label{
+    font-weight: bold;
+}
+
+#itemList{
+    margin: 0;
+    width: 100%;
+    padding: 107px 0 0 0;
+}
+
+#itemList .listItem{
+    list-style: none;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding: 25px 0 25px 0;
+    width: 100%;
+    color: #4e4e4e;
+}
+
+#itemList .itemTitle{
+    margin: 0 0 0 10em;
+}
+
+.X-btn{
+    margin-left: 4em;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
