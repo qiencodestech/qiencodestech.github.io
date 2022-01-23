@@ -1,6 +1,6 @@
-/* Smaller devices (portrait phones, 10px and up.*/
+/* smaller devices (phones & tablets, 768px and up) */
 
-@media (min-width: 10px) and (max-width: 576px) {
+@media (min-width: 10px) and (max-width: 992px) {
 
     html,
     body {
@@ -15,7 +15,7 @@
 
 
     #header {
-        background: #d44870;
+        background: #008f30;
         color: #d2d2d2;
         margin: 0;
         position: fixed;
@@ -24,10 +24,12 @@
 
     #headline {
         padding: 10px 0 18px 0;
+        font-size: 5em;
     }
 
     #form {
         padding: 0 0 10px 0;
+        font-size: 3em;
     }
 
     #headline,
@@ -49,174 +51,26 @@
     #itemList {
         margin: 0;
         width: 100%;
-        padding: 107px 0 0 0;
+        padding: 185px 0 0 0;
     }
 
     #itemList .listItem {
         list-style: none;
         border-top: 1px solid silver;
         border-bottom: 1px solid silver;
-        padding: 25px 0 25px 0;
+        padding: 25px 0 25px 4em;
         width: 100%;
         color: #4e4e4e;
     }
 
     #itemList .itemTitle {
-        margin: 0 0 0 10em;
+        margin: 0 0 0 2em;
+        font-size: 1.2em;
+        font-weight: bold;
     }
 
     .X-btn {
-        margin-left: 4em;
-        font-weight: bold;
-        font-size: x-large;
-        cursor: pointer;
-    }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) and (max-width: 768px) {
-
-    html,
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    html,
-    body,
-    h1 {
-        margin: 0;
-    }
-
-
-    #header {
-        background: #4a48d4;
-        color: #d2d2d2;
-        margin: 0;
-        position: fixed;
-        width: 100%;
-    }
-
-    #headline {
-        padding: 10px 0 18px 0;
-    }
-
-    #form {
-        padding: 0 0 10px 0;
-    }
-
-    #headline,
-    #form {
-        text-align: center;
-    }
-
-    #form input,
-    #form button {
-        padding: 7px;
-        border-radius: 7px;
-        ;
-    }
-
-    #form label {
-        font-weight: bold;
-    }
-
-    #itemList {
-        margin: 0;
-        width: 100%;
-        padding: 107px 0 0 0;
-    }
-
-    #itemList .listItem {
-        list-style: none;
-        border-top: 1px solid silver;
-        border-bottom: 1px solid silver;
-        padding: 25px 0 25px 0;
-        width: 100%;
-        color: #4e4e4e;
-    }
-
-    #itemList .itemTitle {
-        margin: 0 0 0 10em;
-    }
-
-    .X-btn {
-        margin-left: 4em;
-        font-weight: bold;
-        font-size: x-large;
-        cursor: pointer;
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-
-@media (min-width: 768px) and (max-width: 992px) {
-
-    html,
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    html,
-    body,
-    h1 {
-        margin: 0;
-    }
-
-
-    #header {
-        background: #48d477;
-        color: #d2d2d2;
-        margin: 0;
-        position: fixed;
-        width: 100%;
-    }
-
-    #headline {
-        padding: 10px 0 18px 0;
-    }
-
-    #form {
-        padding: 0 0 10px 0;
-    }
-
-    #headline,
-    #form {
-        text-align: center;
-    }
-
-    #form input,
-    #form button {
-        padding: 7px;
-        border-radius: 7px;
-        ;
-    }
-
-    #form label {
-        font-weight: bold;
-    }
-
-    #itemList {
-        margin: 0;
-        width: 100%;
-        padding: 107px 0 0 0;
-    }
-
-    #itemList .listItem {
-        list-style: none;
-        border-top: 1px solid silver;
-        border-bottom: 1px solid silver;
-        padding: 25px 0 25px 0;
-        width: 100%;
-        color: #4e4e4e;
-    }
-
-    #itemList .itemTitle {
-        margin: 0 0 0 10em;
-    }
-
-    .X-btn {
-        margin-left: 4em;
+        /* margin-left: 4em; */
         font-weight: bold;
         font-size: x-large;
         cursor: pointer;
