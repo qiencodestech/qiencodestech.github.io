@@ -48,6 +48,14 @@
         font-weight: bold;
     }
 
+    #form .inputVal{
+        font-size: x-large;
+    }
+
+    #form .btn{
+        font-size: x-large;
+    }
+
     #itemList {
         margin: 0;
         width: 100%;
